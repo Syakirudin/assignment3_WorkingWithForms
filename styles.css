@@ -5,13 +5,42 @@
     
 }
 
+header {
+    /* padding: 10px; */
+    /* border-style: solid; */
+}
+
+header > .container-header > div,a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.container-header{
+    background-color: black;
+    margin: 20px;
+    /* width: 1200px; */
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
 .form-container{
     background-color: black;
-    margin: 10px ;
+    margin: 20px ;
     color: azure; 
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .title{
