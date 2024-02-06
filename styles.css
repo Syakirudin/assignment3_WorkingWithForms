@@ -6,11 +6,12 @@
 }
 
 .form-container{
-    background-color: red;
+    background-color: black;
     margin: 10px ;
     color: azure; 
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
 }
 
 .title{
@@ -31,6 +32,16 @@ h3, h2{
 label {
     display: inline-block;
     width: 130px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 }
 
+input{
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+input[type="checkbox"]{
+    margin: 0;
+}
