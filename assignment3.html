@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Assignment 3 - Working with forms</title>
 </head>
 <body>
@@ -12,30 +13,31 @@
     </header>
 
     <main>
+
+        <div class="form-container">
         <h2> REGISTER YOUR BOOK</h2>    
 
         
         <form method="post" action="">
-        <h3> Book Details</h3>
+        <div class="title"><h3> Book Details</h3> <div class="line"></div></div>
         <div><label for="title">Title</label><input type="text" placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp"></div>
         <div><label for="genre">Genre</label><input type="text" placeholder="Your book genre here. E.g. Fantasy"></div>
         <div><label for="author">Author</label><input type="text" placeholder="Your book author here. E.g. J. K. Rowling"></div>
         <div><label for="publisher">Publisher</label><input type="text" placeholder="Publisher of the book. E.g. Pustaka Melang"></div>
         <div><label for="year">Year Published</label><input type="number" placeholder="1994"></div>
-        <div><label for="availability">Availability</label><input type="radio" name="availability" value="online">Online<br><input type="radio" name="availability" value="in-store">In Store<br><input type="radio" name="availability" value="both">Onlien & In Store</div>
         <div><label for="languanges">Languanges</label><input type="text" placeholder="Language used in the book. E.g. English"></div>
-        <h3> Registree Details</h3>
+        <div class="title"><h3> Registree Details</h3><div class="line"></div></div>
         <div><label for="name">Name</label><input type="text" placeholder="Your name. E.g. Lannah Yeon"></div>
         <div><label for="email">Languanges</label><input type="email" placeholder="Your email. E.g. l.yeon@email.com"></div>
         <div><input type="checkbox">I hereby agree to follow all rules and confirmed that all details are accurate</div>
         <button>SAVE YOUR BOOK</button>
         </form>
-
+        </div>
 
     </main>
     
     <footer>
-        
+
     </footer>
 </body>
 </html>
