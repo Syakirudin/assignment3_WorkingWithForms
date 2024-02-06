@@ -5,10 +5,7 @@
     
 }
 
-header {
-    /* padding: 10px; */
-    /* border-style: solid; */
-}
+
 
 header > .container-header > div,a{
     color: #f9f9f9;
@@ -87,14 +84,23 @@ button{
 
 .container-footer{
     background-color:#2A2C2E;
-    margin: 20px;
+    /* margin: 20px; */
     /* width: 1200px; */
     height: 70px;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    /* border-radius: 15px; */
+}
+
+.container-footer {
+    margin-bottom: auto; /* Push to the top */
+}
+
+.disclaimer {
+    margin-top: auto; /* Push to the bottom */
 }
 
 .icon-media > li {
@@ -120,7 +126,8 @@ button{
 
 .disclaimer{
     background-color: rgb(26, 23, 23);
-    margin: 0 auto;
+    
+    
     height: 30px;
     display: flex;
     flex-direction: row;
